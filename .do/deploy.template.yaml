@@ -66,7 +66,7 @@ spec:
       value: "sync"
     - key: SESSION_DRIVER
       scope: RUN_TIME
-      value: "file"
+      value: "database"
     - key: SESSION_LIFETIME
       scope: RUN_TIME
       value: "120"
