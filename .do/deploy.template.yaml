@@ -58,6 +58,9 @@ spec:
     - key: CACHE_DRIVER
       scope: RUN_TIME
       value: "file"
+    - key: CACHE_STORE
+      scope: RUN_TIME
+      value: "file"
     - key: QUEUE_CONNECTION
       scope: RUN_TIME
       value: "sync"
