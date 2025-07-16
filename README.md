@@ -34,6 +34,12 @@ You can view a <a href="https://devdojo.com/wave/demo" target="_blank">live demo
 
 <a href="https://devdojo.com/wave/demo" target="_blank"><img src="https://cdn.devdojo.com/images/august2024/wave-anchor-theme.jpeg"></a>
 
+## Deploy to DigitalOcean App Platform
+
+Deploy your own instance to DigitalOcean, by clicking the button below:
+
+<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/diabhey/wave/tree/main" target="_blank"><img src="https://www.deploytodo.com/do-btn-blue.svg" width="240" alt="Deploy to DO"></a>
+
 ## Installation
 
 There are two ways to install Wave, you can install it via the automated installer or manually.
