@@ -5,7 +5,7 @@ spec:
     git:
       branch: main
       repo_clone_url: https://github.com/diabhey/wave.git
-    build_command: npm install && npm run production
+    build_command: npm install && npm run build
     run_command: php artisan migrate --force ; heroku-php-apache2 public/
     envs:
     - key: APP_NAME
