@@ -2,9 +2,10 @@ spec:
   name: wave
   services:
   - name: web
-    git:
+    github:
       branch: main
-      repo_clone_url: https://github.com/diabhey/wave.git
+      deploy_on_push: true
+      repo: diabhey/wave
     build_command: npm install && npm run build
     run_command: php artisan migrate --force ; heroku-php-apache2 public/
     envs:
