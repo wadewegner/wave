@@ -50,12 +50,12 @@
 
 <script async
   src="https://yhr6mfzqcepm4uab6cgxyv3x.agents.do-ai.run/static/chatbot/widget.js"
-  data-agent-id="315e112a-623d-11f0-bf8f-4e013e2ddde4"
-  data-chatbot-id="3WWUUDLvOsLIiOmwVU8SZrwAB9gnJ6O8"
-  data-name="Laravel Wave Chatbot"
+  data-agent-id="42d131a0-62ee-11f0-bf8f-4e013e2ddde4"
+  data-chatbot-id="YXkh3hQrnwu_qrk8xz6mtvGGOsL55mLp"
+  data-name="wave-agent Chatbot"
   data-primary-color="#031B4E"
   data-secondary-color="#E5E8ED"
   data-button-background-color="#0061EB"
-  data-starting-message="Hello! I am the Wave Chatbot. How can I assist you today?"
+  data-starting-message="Hello! How can I help you today?"
   data-logo="/static/chatbot/icons/default-agent.svg">
 </script>
