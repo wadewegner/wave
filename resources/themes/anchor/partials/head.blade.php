@@ -49,7 +49,7 @@
 
 
 <script async
-  src="https://pgrigwfdijqwf4erk5yj6o7a.agents.do-ai.run/static/chatbot/widget.js"
+  src="https://yhr6mfzqcepm4uab6cgxyv3x.agents.do-ai.run/static/chatbot/widget.js
   data-agent-id="315e112a-623d-11f0-bf8f-4e013e2ddde4"
   data-chatbot-id="3WWUUDLvOsLIiOmwVU8SZrwAB9gnJ6O8"
   data-name="Laravel Wave Chatbot"
