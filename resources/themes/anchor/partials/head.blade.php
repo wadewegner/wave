@@ -46,3 +46,16 @@
 @filamentStyles
 @livewireStyles
 @vite(['resources/themes/anchor/assets/css/app.css', 'resources/themes/anchor/assets/js/app.js'])
+
+
+<script async
+  src="https://pgrigwfdijqwf4erk5yj6o7a.agents.do-ai.run/static/chatbot/widget.js"
+  data-agent-id="315e112a-623d-11f0-bf8f-4e013e2ddde4"
+  data-chatbot-id="3WWUUDLvOsLIiOmwVU8SZrwAB9gnJ6O8"
+  data-name="Laravel Wave Chatbot"
+  data-primary-color="#031B4E"
+  data-secondary-color="#E5E8ED"
+  data-button-background-color="#0061EB"
+  data-starting-message="Hello! I am the Wave Chatbot. How can I assist you today?"
+  data-logo="/static/chatbot/icons/default-agent.svg">
+</script>
