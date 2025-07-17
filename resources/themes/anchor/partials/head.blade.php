@@ -48,7 +48,7 @@
 @vite(['resources/themes/anchor/assets/css/app.css', 'resources/themes/anchor/assets/js/app.js'])
 
 
-<script async
+<!-- <script async
   src="https://yhr6mfzqcepm4uab6cgxyv3x.agents.do-ai.run/static/chatbot/widget.js"
   data-agent-id="42d131a0-62ee-11f0-bf8f-4e013e2ddde4"
   data-chatbot-id="YXkh3hQrnwu_qrk8xz6mtvGGOsL55mLp"
@@ -58,4 +58,4 @@
   data-button-background-color="#0061EB"
   data-starting-message="Hello! How can I help you today?"
   data-logo="/static/chatbot/icons/default-agent.svg">
-</script>
+</script> -->
