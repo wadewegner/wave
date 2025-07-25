@@ -24,11 +24,3 @@ git reset --hard $COMMIT_ID
 # Remove untracked files (but not ignored files).
 # Use 'git clean -fdx' to also remove ignored files like the vendor directory.
 git clean -fd
-
-echo "Clearing Laravel application caches..."
-php artisan optimize:clear
-
-echo "Resetting database and seeding with data..."
-php artisan migrate:fresh --seed
-
-echo "✅ Application has been successfully reset to commit $COMMIT_ID." 
