@@ -3,10 +3,16 @@
 # Exit immediately if a command exits with a non-zero status.
 set -e
 
-# !!! IMPORTANT !!!
-# Replace "YOUR_COMMIT_ID_HERE" with the actual Git commit ID you want to reset to.
+# Check if a commit ID was passed as an argument
 # You can find the commit ID by running `git log --oneline`
-COMMIT_ID="YOUR_COMMIT_ID_HERE"
+if [ -z "$1" ]; then
+    echo "Error: No commit ID provided."
+    echo "Usage: ./reset.sh <commit-id>"
+    echo "You can find the commit ID by running 'git log --oneline'"
+    exit 1
+fi
+
+COMMIT_ID=$1
 
 # Ask for confirmation before proceeding
 read -p "Are you sure you want to reset your application to commit $COMMIT_ID? All changes after this commit will be lost. (y/n) " -n 1 -r
