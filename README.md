@@ -34,11 +34,47 @@ You can view a <a href="https://devdojo.com/wave/demo" target="_blank">live demo
 
 <a href="https://devdojo.com/wave/demo" target="_blank"><img src="https://cdn.devdojo.com/images/august2024/wave-anchor-theme.jpeg"></a>
 
-## Deploy to DigitalOcean App Platform
+## 🚀 Deploy to DigitalOcean App Platform
 
-Deploy your own instance to DigitalOcean, by clicking the button below:
+You can easily deploy Wave to [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform/) with just a few clicks. All you need is a [DigitalOcean account](https://cloud.digitalocean.com/registrations/new).
+
+### 1. One-Click Deploy
+
+Click the button below to deploy Wave from the `main` branch:
 
 <a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/diabhey/wave/tree/main" target="_blank"><img src="https://www.deploytodo.com/do-btn-blue.svg" width="240" alt="Deploy to DO"></a>
+
+### 2. Configure Your App
+
+Once you're in the DigitalOcean Control Panel:
+
+* You can **leave all default settings as-is** if you're just testing.
+* For production or heavier workloads, consider adjusting:
+
+  * **Component size** (e.g., Basic vs. Professional)
+  * **Number of containers**
+  * **Environment variables and secrets**
+  * **Database settings** (if you want to use a managed database)
+  * **Custom domain** (optional, but recommended for production)
+
+### 3. Initial Build and Database Setup
+
+* The initial build will take a bit longer because it also provisions a **development PostgreSQL database**.
+* This dev database is perfect for testing or staging.
+* For production deployments, we recommend setting up a **Managed PostgreSQL Database** via DigitalOcean and attaching it to your app along with adjusting any necessary environment variables.
+
+### 4. Seed the Database (First-Time Only)
+
+After deployment is complete:
+
+1. Open the App Platform **Console Shell** from your dashboard.
+2. Run the following command:
+
+   ```bash
+   php artisan db:seed
+   ```
+
+This step is required **only on the first deploy** to populate your database with default data. Future deployments will work automatically as you push changes to the `main` branch.
 
 ## Installation
 
