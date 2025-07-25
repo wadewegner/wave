@@ -42,7 +42,7 @@ You can easily deploy Wave to [DigitalOcean App Platform](https://www.digitaloce
 
 Click the button below to deploy Wave from the `main` branch:
 
-<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/diabhey/wave/tree/main" target="_blank"><img src="https://www.deploytodo.com/do-btn-blue.svg" width="240" alt="Deploy to DO"></a>
+<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/wadewegner/wave/tree/main" target="_blank"><img src="https://www.deploytodo.com/do-btn-blue.svg" width="240" alt="Deploy to DO"></a>
 
 ### 2. Configure Your App
 
