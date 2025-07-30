@@ -46,3 +46,15 @@
 @filamentStyles
 @livewireStyles
 @vite(['resources/themes/anchor/assets/css/app.css', 'resources/themes/anchor/assets/js/app.js'])
+
+<script async
+  src="https://cybi562632v62ihd35brvqah.agents.do-ai.run/static/chatbot/widget.js"
+  data-agent-id="84c587a0-6cbb-11f0-bf8f-4e013e2ddde4"
+  data-chatbot-id="4Kuo2vHnrUtZ35xFpHKZ0bWVYPHF4M-H"
+  data-name="ultracoach-agent Chatbot"
+  data-primary-color="#031B4E"
+  data-secondary-color="#E5E8ED"
+  data-button-background-color="#0061EB"
+  data-starting-message="Hello! How can I help you today?"
+  data-logo="/static/chatbot/icons/default-agent.svg">
+</script>
